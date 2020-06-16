@@ -1,0 +1,22 @@
+.con{
+    display: grid;
+
+    grid-template-columns: 15% 60% 15%;
+
+    grid-template-rows: 700px 700px;
+}
+
+
+.ce{
+    text-align: center;
+}
+header{
+    height: 150px;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+}

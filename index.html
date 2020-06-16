@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>201930311박세훈</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stop.css">
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>header(높이 150px)</header>
+    <div class="con">
+        <div class="menu">
+            <p>menu</p>
+        </div>
+        <div class="article">
+            <p>article(높이 700px)</p>
+            <div class="ce">
+            <div class="input">
+                  <input type="number" id="num" min="0">
+                  <select id="measure">
+                      <option value="0">Select Unit</option>
+                      <option value="s">Seconds</option>
+                      <option value="m">Minutes</option>
+                      <option value="h">Hours</option>
+                  </select>
+                </div>
+                <div class="buttons-wrapper">
+                  <button id="start-cronometer">Start Stopwatch</button>
+                  <button id="start-countdown">Start Countdown</button>
+                </div>
+
+                <div class="clock-wrapper">
+                  <span class="hours">00</span>
+                  <span class="dots">:</span>
+                  <span class="minutes">00</span>
+                  <span class="dots">:</span>
+                  <span class="seconds">00</span>
+                </div>
+                <div class="buttons-wrapper">
+                  <button id="resume-timer">Resume Timer</button>
+                  <button id="stop-timer">Stop Timer</button>
+                  <button id="reset-timer">Reset Timer</button>
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <p>aside</p>
+        </div>
+    </div>
+    <footer>footer(높이 50px)</footer>
+</body>
+</html>
